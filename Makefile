@@ -1,5 +1,5 @@
 build:
-	docker build . --no-cache --tag sshserver
+	docker build . --tag sshserver
 
 run:
 	docker run -d -p 2222:2222 --name sshs --rm -it sshserver

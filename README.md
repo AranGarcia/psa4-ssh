@@ -20,9 +20,13 @@ make build
 make run
 ```
 
+```sh
+ssh root@localhost -p 2222
+```
+
 ## Funcionalidades
 
-- [ ] Conexion terminal
+- [X] Conexion terminal
 - [ ] Conexion entorno grafico
 - [ ] Copia de elementos remotos al servidor
 - [ ] Tunel de aplicaciones por SSH (3 diferentes)
